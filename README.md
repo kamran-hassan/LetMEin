@@ -1,5 +1,5 @@
 # LetMEin
-It is small script of python that use selenium to automate Whats App web and reads the instruction to join/ Send / Message /leave a Google Meet. 
+It is small script of python that use selenium to automate Whats App web and reads the instruction to join/ Send Message /leave a Google Meet's Meeting. 
 
 Code has Comments from which you can understand 
 
