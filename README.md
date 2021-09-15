@@ -3,7 +3,7 @@ It is small script of python that use selenium to automate Whats App web and rea
 
 Code has Comments from which you can understand 
 
-Want to view a video of working the click on the link :-  
+Want to view a video of working the click on the link :-  https://youtu.be/F0_9_02eB3s
 
 feel free to copy and Modify 
 
