@@ -5,9 +5,9 @@ from os import system
 
 
 
-#type you own user name and profile path of fire fox
+#type you own user name and profile path of firefox  YOU CAN FIND BY TYPING "about:profiles" in your URL area and enter
 
-profile = webdriver.FirefoxProfile(r"C:\Users\hassa\AppData\Roaming\Mozilla\Firefox\Profiles\4yjgz4vv.default-release")
+profile = webdriver.FirefoxProfile(r"C:\Users\YOURUSERNAME\AppData\Roaming\Mozilla\Firefox\Profiles\4yjgz4vv.default-release")
 driver = webdriver.Firefox(firefox_profile=profile)
 driver.get('https://web.whatsapp.com/')
 
@@ -23,7 +23,6 @@ def LogUpdate(data):
 
 
 #can be used to clear all the Whats APP chat, I have Not used it anywhere but you may use
-
 def resetInsQueue(d):
     d.find_element_by_xpath('//span[@title = "{}"]'.format(chat)).click()
     d.find_element_by_xpath('/html/body/div[1]/div[1]/div[1]/div[4]/div[1]/header/div[3]/div/div[2]/div').click()
