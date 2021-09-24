@@ -66,7 +66,7 @@ while True:
                     time.sleep(1)
                     driver2.find_element_by_xpath('/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[10]/div[3]/div[2]/div/div/div[3]/span/button/i[1]').click()
                     time.sleep(1)
-                    driver2.find_element_by_xpath('/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/div/div[1]/div[1]/textarea').send_keys(new_msg)
+                    driver2.find_element_by_xpath('/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/div/div[1]/div[2]/textarea').send_keys(new_msg)
                     time.sleep(1)
                     driver2.find_element_by_xpath('/html/body/div[1]/c-wiz/div[1]/div/div[9]/div[3]/div[4]/div[2]/div[2]/div/div[4]/span/button/i').click()
                     time.sleep(1)
